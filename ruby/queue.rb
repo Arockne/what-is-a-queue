@@ -11,10 +11,12 @@ class Queue
   # add item to rear of queue if not full
   # if full, throw error
   def enqueue(item)
+    queue << item
   end
 
   # remove item from front of queue and return it
   def dequeue
+    
   end
 
   # return item at front of queue without removing it
